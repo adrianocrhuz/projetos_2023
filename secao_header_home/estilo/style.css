@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --bg-color:#f2f2f2;
+    --text-color:#000;
+    --main-color:#591c21;
+    --second-color:#d92525;
+    --btn-color:#bc1f28;
+
+    --h1-font: 5rem;
+    --h2-font: 2.3rem;
+    --p-font: 1.3rem;
+}
+body {
+    background:#fff;
+    color: var(--text-color);
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 12%;
+    transition: all .40s ease;
+    background: #fff;
+}
+.logo img {
+    width: 50%;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    margin: 0 20px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 15px;
+    transition: all .40s ease;
+}
+.navbar a:hover {
+    color: var(--second-color);
+}
+.h-icons {
+    display: flex;
+    align-items: center;
+}
+.h-icons i {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-left: 5px;
+    margin-right: 15px;
+    transition: all .40s ease;
+}
+.h-icons i:hover {
+    transform: scale(1.1);
+    color: var(--second-color);
+}
+#menu-icon {
+    width: 37px;
+    height: 37px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 1px solid var(--btn-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-text h1 {
+    font-size: var(--h1-font);
+    margin-top: 200px;
+    font-family: 'Leckerli One', cursive;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+span {
+    color: var(--main-color);
+}
+.home-text h2 {
+    text-align: center;
+    color: var(--second-color);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.home-text p {
+    color: var(--bg-color);
+    text-align: center;
+    font-weight: bold;
+}
