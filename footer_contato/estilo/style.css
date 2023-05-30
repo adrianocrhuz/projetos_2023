@@ -11,7 +11,7 @@ main {
 }
 .contact {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
 
 }
@@ -20,6 +20,9 @@ main {
     margin-bottom:1.5rem;
     font-size: 18px;
     font-family: sans-serif;
+}
+.contact li {
+    margin-bottom: 18px;
 }
 .contact li a {
     display: block;
@@ -38,33 +41,35 @@ span {
 }
 .text-contact h5 {
     color: #818274;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 20px;
     font-weight: 600;
     font-family: sans-serif;
 }
 .social {
     display: flex;
+    margin-top: 1.8rem;
     align-items: center;
     
 }
-.social a {
-    margin: 7px;
-}
+
 .social i {
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     border-radius: 50%;
-    border: 1px solid red;
+    background: transparent;
+    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     color: red;
     font-size: 20px;
+    margin-right: 1.1rem;
     transition: all .40s ease;
     cursor: pointer;
 }
 .social i:hover {
-    color: #fff;
+    color: #999999;
     transform: scale(1.1);
+    background: #fff;
 }
