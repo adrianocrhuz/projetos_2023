@@ -25,7 +25,7 @@ section {
 }
 .contact-form h1 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 span {
     color: #A62B1F;
@@ -33,9 +33,10 @@ span {
 .contact-form p {
     color: #595959;
     letter-spacing: 1px;
-    line-height: 26px;
+    line-height: 32px;
     font-size: 0.8rem;
-    margin-bottom: 3.9rem;
+    margin-bottom: 2rem;
+    text-align: justify;
 }
 .contact-form form {
     position: relative;
@@ -53,12 +54,12 @@ form textarea {
 }
 .contact-form textarea {
     resize: none;
-    height: 200px;
+    height: 180px;
 }
 .contact-form form .btn {
     display: inline-block;
     background: #A62B1F;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
@@ -77,14 +78,14 @@ form textarea {
 }
 @media (max-width: 1570px) {
     section {
-        padding: 80px 35;
+        padding: 80px 3%;
         transition: .2s;
     }
     .contact-form h1 {
         font-size: 30px;
     }
     .contact-form p {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 @media (max-width:1090px) {
@@ -93,7 +94,7 @@ form textarea {
         transition: .3s;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 780px) {
     .contact {
         grid-template-columns: 1fr;
     }
@@ -108,3 +109,9 @@ form textarea {
         margin-bottom: 30px;
     }
 }
+@media (max-width: 4800px) {
+    .contact-form p {
+        font-size: 0.8rem;
+    }
+
+    }
