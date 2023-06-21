@@ -86,8 +86,7 @@ button {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 .btns-one {
     background: var(--color3);
@@ -114,4 +113,19 @@ button {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+}
+@media (max-width: 500px) {
+    form {
+        padding: 10px 15px;
+        width: 100%;
+    }
+    .btns {
+        width: 100%;
+    }
+    .btns-one i {
+        display: none;
+    }
+    .btns-two i {
+        display: none;
+    }
 }
